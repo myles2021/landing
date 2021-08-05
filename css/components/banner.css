@@ -1,0 +1,34 @@
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://sothebys-com.brightspotcdn.com/dims4/default/c6bdf8d/2147483647/strip/true/crop/2095x1178+0+817/resize/1200x675!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2Fcb%2Fe7%2F10d056b843efabc59c1c9a5581f0%2Ftnumber-version.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.banner h1 {
+  color: black;
+}
+
+.banner p {
+  color: black;
+}
+
+.btn-yours {
+  display: flex;
+  border-radius: 5px;
+  background-color: rgb(143, 163, 143);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  transition: .2s;
+  cursor: pointer;
+  margin: 0px;
+  font-size: 16px;
+  padding: 14px 20px;
+  width: 90px;
+}
+
+.btn-yours:hover {
+  background-color: rgb(95, 136, 95);
+  color: white;
+  transition: .2s;
+}

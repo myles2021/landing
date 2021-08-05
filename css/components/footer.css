@@ -1,0 +1,28 @@
+#fab {
+  font-size: 24px;
+  padding: 7px;
+}
+
+.footer {
+  background-color: rgb(206, 82, 82);
+  height: 70px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.links {
+  margin-right: 14px;
+}
+
+.signature {
+  margin-left: 14px;
+}
+
+.footer a {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  text-align: center;
+}
